@@ -35,7 +35,8 @@ namespace APITubefetch.Controllers
             Ele recebe um parâmetro context do tipo AppDbContext injetado por meio do serviço.*/
         public async Task<IActionResult> GetAsync([FromServices] AppDbContext context)
         {
-            /* Aqui é feita uma consulta ao banco de dados usando o contexto AppDbContext. Todos é provavelmente um DbSet dentro do contexto e AsNoTracking() é usado para desabilitar o rastreamento de mudanças das entidades retornadas. ToListAsync() realiza a consulta e retorna a lista de todos os objetos da tabela 'Todos'. */
+            /* Aqui é feita uma consulta ao banco de dados usando o contexto AppDbContext. Todos é provavelmente um DbSet dentro do contexto e AsNoTracking() é usado para desabilitar o rastreamento de mudanças das entidades retornadas.
+                ToListAsync() realiza a consulta e retorna a lista de todos os objetos da tabela 'Todos'. */
             var todos = await context
                 .Todos
                 .AsNoTracking()
