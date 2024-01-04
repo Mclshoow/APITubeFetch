@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "5QRY3u2yP/wkTKGmtKbDi5gjzPBu86hyPH9okP+4bKac7exvbebsDlZ4hJnzwZpB6Y9wcbEkdfUuigJD4SOcSA==",
+  "success": true,
+  "projectFilePath": "M:\\Projetos VSCODE\\APITubefetch\\APITubefetch.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\marce\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}
