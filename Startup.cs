@@ -16,6 +16,15 @@ namespace APITubefetch
 
             //Adicionando Databases
             services.AddDbContext<AppDbContext>();
+
+            //Cors
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowSpecificOrigin", builder => builder.WithOrigins("http://127.0.0.1:4200")
+                .AllowAnyMethod()
+                .AllowAnyHeader()
+                );
+            });
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -26,6 +35,8 @@ namespace APITubefetch
             }
 
             app.UseRouting();
+
+            app.UseCors("AllowSpecificOrigin");
 
             app.UseEndpoints(endpoints =>
             {
