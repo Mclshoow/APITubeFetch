@@ -77,3 +77,8 @@ M:\Projetos VSCODE\APITubefetch\obj\Debug\net5.0\refint\APITubefetch.dll
 M:\Projetos VSCODE\APITubefetch\obj\Debug\net5.0\APITubefetch.pdb
 M:\Projetos VSCODE\APITubefetch\obj\Debug\net5.0\APITubefetch.genruntimeconfig.cache
 M:\Projetos VSCODE\APITubefetch\obj\Debug\net5.0\ref\APITubefetch.dll
+m:\Projetos VSCODE\APITubefetch\bin\Debug\net5.0\Microsoft.OpenApi.dll
+m:\Projetos VSCODE\APITubefetch\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+m:\Projetos VSCODE\APITubefetch\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+m:\Projetos VSCODE\APITubefetch\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+m:\Projetos VSCODE\APITubefetch\obj\Debug\net5.0\APITubefetch.MvcApplicationPartsAssemblyInfo.cs
