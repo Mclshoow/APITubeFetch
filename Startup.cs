@@ -1,5 +1,9 @@
 using System.Threading.Tasks;
+using APITubefetch.Business.TodoBusiness;
 using APITubefetch.Data;
+using APITubefetch.Interfaces.ITodoBusiness;
+using APITubefetch.Interfaces.ITodoRepository;
+using APITubefetch.Repositories.TodoRepository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
@@ -12,19 +16,32 @@ namespace APITubefetch
     {
         public void ConfigureServices(IServiceCollection services)
         {
-            //Injeção de dependência
-            //Adicionando Controllers 
+            // Injeção de dependência 
+            // {
+
+            // Adicionando Controllers 
             services.AddControllers();
 
-            //Adicionando Databases
+            // Adicionando Databases
             services.AddDbContext<AppDbContext>();
 
-            //Cors
+            // Adicionando Repositorios e Interfaces
+            services.AddTransient<ITodoRepository, TodoRepository>();
+
+            // Adicionando Business e Interfaces
+            services.AddTransient<ITodoBusiness, TodoBusiness>();
+
+            // }
+
+            // Cors
+            // AllowSpecificOrigin
             services.AddCors(options =>
             {
                 options.AddPolicy("AllowSpecificOrigin", builder =>
-                    builder.WithOrigins("http://127.0.0.1:4200",
-                    "http://localhost:19006")
+                    builder.WithOrigins(
+                    "http://127.0.0.1:4200",
+                    "http://localhost:19006",
+                    "http://10.0.2.16:5000")
                     .AllowAnyMethod()
                     .AllowAnyHeader()
                 );
@@ -70,7 +87,7 @@ namespace APITubefetch
                     return Task.CompletedTask;
                 });
 
-                //Mapeando rotas iniciais
+                // Mapeando rotas iniciais
                 endpoints.MapControllerRoute(name: "default", pattern: "{controller=Home}/{action=Index}/{id?}");
             });
 

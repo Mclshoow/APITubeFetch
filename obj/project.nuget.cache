@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "es9TzV8NlpnkNoiKMJFfUMyj+pItR/T7F1UxmkQWwgd4yMbvkMdE2f2UtyOKTQo36IJAxoDHmhOzKb3kADXG/w==",
+  "dgSpecHash": "2v+TuNe67DzWPQtOXOPH0DGxKIuxMeAtA7wsotzyIUdFR9ThujrT2N5FCMXfVVbY3SRN0Wm/1S1cJhuciMxBfQ==",
   "success": true,
-  "projectFilePath": "M:\\Projetos VSCODE\\APITubefetch\\APITubefetch.csproj",
+  "projectFilePath": "m:\\Projetos VSCODE\\APITubefetch\\APITubefetch.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marce\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\marce\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.2.0\\microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",

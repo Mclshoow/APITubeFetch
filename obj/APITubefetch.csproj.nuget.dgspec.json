@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "M:\\Projetos VSCODE\\APITubefetch\\APITubefetch.csproj": {}
+    "m:\\Projetos VSCODE\\APITubefetch\\APITubefetch.csproj": {}
   },
   "projects": {
-    "M:\\Projetos VSCODE\\APITubefetch\\APITubefetch.csproj": {
+    "m:\\Projetos VSCODE\\APITubefetch\\APITubefetch.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\Projetos VSCODE\\APITubefetch\\APITubefetch.csproj",
+        "projectUniqueName": "m:\\Projetos VSCODE\\APITubefetch\\APITubefetch.csproj",
         "projectName": "APITubefetch",
-        "projectPath": "M:\\Projetos VSCODE\\APITubefetch\\APITubefetch.csproj",
+        "projectPath": "m:\\Projetos VSCODE\\APITubefetch\\APITubefetch.csproj",
         "packagesPath": "C:\\Users\\marce\\.nuget\\packages\\",
-        "outputPath": "M:\\Projetos VSCODE\\APITubefetch\\obj\\",
+        "outputPath": "m:\\Projetos VSCODE\\APITubefetch\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marce\\AppData\\Roaming\\NuGet\\NuGet.Config",
