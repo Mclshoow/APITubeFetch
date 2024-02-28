@@ -8,6 +8,8 @@ namespace APITubefetch.Models
         public string Title { get; set; }
         public bool Done { get; set; }
         public DateTime Date { get; set; } = DateTime.Now;
+        public string Name { get; set; }
+        public string Email { get; set; }
     }
 }
 

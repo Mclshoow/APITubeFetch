@@ -38,7 +38,9 @@ namespace APITubefetch.Business.TodoBusiness
                 {
                     Date = DateTime.Now,
                     Done = false,
-                    Title = model.Title
+                    Title = model.Title,
+                    Name = model.Name,
+                    Email = model.Email
                 };
 
                 await _repository.PostAsync(todo);
